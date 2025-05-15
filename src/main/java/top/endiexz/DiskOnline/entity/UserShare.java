@@ -6,7 +6,6 @@ public class UserShare {
     private Long id;
     private Long userId;
     private String fileName;
-    private String code;
     private Long fileId;
     private int days;
     private int visitTimes;
@@ -47,12 +46,6 @@ public class UserShare {
     }
     public void setVisitTimes(int visitTimes) {
         this.visitTimes = visitTimes;
-    }
-    public String getCode() {
-        return code;
-    }
-    public void setCode(String code) {
-        this.code = code;
     }
     public Boolean getIsDirectory() {
         return isDirectory;
